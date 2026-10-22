@@ -1,3 +1,13 @@
+> **Portfolio copy** · 이 레포는 AWS Cloud Club Spring 스터디 팀 프로젝트([kwang-i-coder/2026-spring-team1](https://github.com/kwang-i-coder/2026-spring-team1))를 커밋 기록 그대로 옮겨온 복사본입니다.
+>
+> **My part (오소원 · [@wanimetro](https://github.com/wanimetro))** — 인증 / 세션
+> - 회원가입 · 로그인 · 로그아웃 · 내 정보 조회 API (`POST /auth/signup`, `/auth/login`, `/auth/logout`, `GET /auth/me`)
+> - `Session` 엔티티 설계, 세션 토큰 SHA-256 해시 저장 + HttpOnly 쿠키 발급 (`TokenHashUtil`)
+> - BCrypt 비밀번호 암호화 (`PasswordConfig`)
+> - 팀의 Mock 인증을 대체하는 `SessionAuthFilter` 구현, 기존 `@LoginUser` 구조에 연결
+>
+> 그 외 기능은 팀원들이 함께 구현했습니다.
+
 # PlanFlow
 
 AI가 회의 자료를 기획서 → 기능 명세서 → 화면 기획서 → 와이어프레임 순서로 자동 생성해주고, 팀원들이 실시간으로 함께 검토·확정·재요청할 수 있는 협업 툴입니다.
