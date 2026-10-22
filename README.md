@@ -1,4 +1,4 @@
-> **Portfolio copy** · 이 레포는 AWS Cloud Club Spring 스터디 팀 프로젝트([kwang-i-coder/2026-spring-team1](https://github.com/kwang-i-coder/2026-spring-team1))를 커밋 기록 그대로 옮겨온 복사본입니다.
+> 이 레포는 AWS Cloud Club Spring 스터디 팀 프로젝트([kwang-i-coder/2026-spring-team1](https://github.com/kwang-i-coder/2026-spring-team1))를 커밋 기록 그대로 옮겨온 복사본입니다.
 >
 > **My part (오소원 · [@wanimetro](https://github.com/wanimetro))** — 인증 / 세션
 > - 회원가입 · 로그인 · 로그아웃 · 내 정보 조회 API (`POST /auth/signup`, `/auth/login`, `/auth/logout`, `GET /auth/me`)
